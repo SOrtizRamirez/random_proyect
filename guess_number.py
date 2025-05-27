@@ -17,6 +17,7 @@ def random ():
             print(almost)
         elif number == rand:
             print(f"You got it! The random number was {number} 🔥🔥🔥")
+            break
     else:
         print(f"You lose. The number was {rand}. Nice try.")
 random()
